@@ -1,3 +1,4 @@
+from functions import add, subtract, multiply, divide
 # Review basic boolean checks statements
 x = 10
 y = 20
@@ -25,14 +26,6 @@ elif x == 10:
     print("X is equal to 10")
 
 # Combining functions, conditions and inputs to demonstrate the purpose of conditionals in a program
-def add(num1, num2):
-    return int(num1) + (int(num2))
-def subtract(num1, num2):
-    return int(num1) + (int(num2))
-def multiply(num1, num2):
-    return int(num1) * (int(num2))
-def divide(num1, num2):
-    return int(num1) / (int(num2))
 # Set up variables for our program using input
 num1 = input("Please enter a number: ")
 num2 = input("Please enter a second number: ")
