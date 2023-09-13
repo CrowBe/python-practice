@@ -1,0 +1,4 @@
+Best reference docs:
+docs.python.org - gives good information on existing modules
+
+Use dir() to check what classes and functions are available from an imported module, or any kind of variable

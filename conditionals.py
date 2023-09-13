@@ -1,4 +1,4 @@
-from functions import add, subtract, multiply, divide
+from functions import add, subtract, multiply, divide, get_number_input
 # Review basic boolean checks statements
 x = 10
 y = 20
@@ -27,8 +27,8 @@ elif x == 10:
 
 # Combining functions, conditions and inputs to demonstrate the purpose of conditionals in a program
 # Set up variables for our program using input
-num1 = input("Please enter a number: ")
-num2 = input("Please enter a second number: ")
+num1 = get_number_input("Please enter a number: ")
+num2 = get_number_input("Please enter a second number: ")
 operator = input("Please select an operation to perform with your numbers: [add, subtract, divide, multiply]: ")
 # use a series of conditionals to check which function to call. An else condition catches invalid input.
 if operator == 'add':
